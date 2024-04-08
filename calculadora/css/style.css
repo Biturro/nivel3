@@ -1,0 +1,39 @@
+.number{
+    border-radius: 50%;
+    background-color: antiquewhite;
+    font-weight: bolder;
+}
+.numbers{
+    display: flex;
+    width: 100px;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+}
+.screen{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    text-align: right;
+    padding: 5px;
+}
+.operator{
+    background-color: aquamarine;
+    border-radius: 15px;
+    border: 1px black solid;
+}
+.calculadora{
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
